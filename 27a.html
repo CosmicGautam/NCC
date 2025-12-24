@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Register - WebApp7ByJessica</title>
+    <style>
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            color: #212529;
+            background-color: #fff;
+        }
+
+        /* --- NAVIGATION --- */
+        nav {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 10px 10%;
+            border-bottom: 1px solid #dee2e6;
+        }
+
+        .nav-left, .nav-right {
+            display: flex;
+            gap: 20px;
+            align-items: center;
+        }
+
+        .brand {
+            font-size: 1.1rem;
+            text-decoration: none;
+            color: #212529;
+        }
+
+        .nav-link {
+            text-decoration: none;
+            color: rgba(0,0,0,.55);
+            font-size: 0.95rem;
+        }
+
+        /* --- MAIN CONTENT LAYOUT --- */
+        .container {
+            max-width: 1100px;
+            margin: 40px auto;
+            padding: 0 20px;
+        }
+
+        h1 {
+            font-size: 2.5rem;
+            font-weight: 500;
+            margin-bottom: 10px;
+        }
+
+        .row {
+            display: flex;
+            gap: 50px;
+            margin-top: 20px;
+        }
+
+        .col-register {
+            flex: 1;
+        }
+
+        .col-external {
+            flex: 1.5;
+        }
+
+        h2 {
+            font-size: 1.5rem;
+            font-weight: 400;
+            margin-bottom: 20px;
+        }
+
+        /* --- FORM ELEMENTS --- */
+        .form-group {
+            margin-bottom: 15px;
+        }
+
+        label {
+            display: block;
+            font-size: 0.85rem;
+            color: #6c757d;
+            margin-bottom: 5px;
+        }
+
+        input {
+            width: 100%;
+            padding: 10px;
+            border: 1px solid #ced4da;
+            border-radius: 4px;
+            box-sizing: border-box;
+            font-size: 1rem;
+        }
+
+        input:focus {
+            border-color: #86b7fe;
+            outline: 0;
+            box-shadow: 0 0 0 0.25rem rgba(13,110,253,.25);
+        }
+
+        .btn-primary {
+            width: 100%;
+            background-color: #0d6efd;
+            color: white;
+            border: none;
+            padding: 12px;
+            border-radius: 6px;
+            font-size: 1rem;
+            cursor: pointer;
+            margin-top: 10px;
+        }
+
+        /* --- EXTERNAL SERVICES SECTION --- */
+        .external-box {
+            border-top: 1px solid #dee2e6;
+            padding-top: 20px;
+            font-size: 0.95rem;
+        }
+
+        .external-box a {
+            color: #0d6efd;
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+
+    <nav>
+        <div class="nav-left">
+            <a href="#" class="brand">WebApp7ByDevraj</a>
+            <a href="#" class="nav-link">Home</a>
+            <a href="#" class="nav-link">Privacy</a>
+        </div>
+        <div class="nav-right">
+            <a href="#" class="nav-link">Register</a>
+            <a href="#" class="nav-link">Login</a>
+        </div>
+    </nav>
+
+    <div class="container">
+        <h1>Register</h1>
+        
+        <div class="row">
+            <div class="col-register">
+                <h2>Create a new account.</h2>
+                <hr>
+                <div class="form-group">
+                    <label>Email</label>
+                    <input type="email" value="devrajchapai301@gmail.com">
+                </div>
+                <div class="form-group">
+                    <label>Password</label>
+                    <input type="password" value="password123">
+                </div>
+                <div class="form-group">
+                    <label>Confirm Password</label>
+                    <input type="password" value="password123">
+                </div>
+                <button class="btn-primary">Register</button>
+            </div>
+
+            <div class="col-external">
+                <h2>Use another service to register.</h2>
+                <hr>
+                <div class="external-box">
+                    <p>There are no external authentication services configured. See this <a href="#">article about setting up this ASP.NET application to support logging in via external services</a>.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+</body>
+</html>

@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home Page - WebApp5ByCosmic</title>
+    <style>
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            color: #212529;
+            background-color: #fff;
+            display: flex;
+            flex-direction: column;
+            min-height: 100vh;
+        }
+
+        /* Browser URL Bar Styling */
+        .browser-ui {
+            background-color: #35363a; /* Dark gray browser chrome */
+            padding: 8px 15px;
+            display: flex;
+            align-items: center;
+            gap: 15px;
+            color: #fff;
+        }
+
+        .controls {
+            display: flex;
+            gap: 12px;
+            font-size: 1.2rem;
+            color: #bdc1c6;
+            cursor: default;
+        }
+
+        .url-bar {
+            background-color: #202124;
+            flex-grow: 1;
+            border-radius: 20px;
+            padding: 5px 20px;
+            display: flex;
+            align-items: center;
+            font-size: 0.9rem;
+            color: #e8eaed;
+            border: 1px solid #5f6368;
+        }
+
+        .lock-icon {
+            margin-right: 10px;
+            font-size: 0.8rem;
+        }
+
+        /* Navbar Styling */
+        nav {
+            display: flex;
+            align-items: center;
+            padding: 15px 5%;
+            border-bottom: 1px solid #dee2e6;
+            background-color: #fff;
+        }
+
+        .brand {
+            font-size: 1.25rem;
+            color: #212529;
+            text-decoration: none;
+            margin-right: 20px;
+        }
+
+        .nav-links {
+            display: flex;
+            gap: 15px;
+        }
+
+        .nav-link {
+            text-decoration: none;
+            color: rgba(0,0,0,.5);
+            font-size: 1rem;
+        }
+
+        /* Main Content Container */
+        .container {
+            flex: 1;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: flex-start;
+            padding-top: 80px;
+            text-align: center;
+        }
+
+        h1 {
+            font-size: 4rem;
+            font-weight: 300;
+            margin-bottom: 10px;
+        }
+
+        .welcome-text {
+            font-size: 1.1rem;
+            color: #212529;
+        }
+
+        .welcome-text a {
+            color: #007bff;
+            text-decoration: underline;
+        }
+
+        /* Footer Styling */
+        footer {
+            border-top: 1px solid #dee2e6;
+            padding: 15px 0;
+            text-align: center;
+            font-size: 0.9rem;
+            color: #6c757d;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="browser-ui">
+        <div class="controls">
+            <span>&#8592;</span> <span>&#8594;</span> <span>&#8635;</span> </div>
+        <div class="url-bar">
+            webapp5bycosmic-6.onrender.com
+        </div>
+    </div>
+
+    <nav>
+        <a href="#" class="brand">WebApp5ByCosmic</a>
+        <div class="nav-links">
+            <a href="#" class="nav-link">Home</a>
+            <a href="#" class="nav-link">Privacy</a>
+        </div>
+    </nav>
+
+    <div class="container">
+        <h1>Welcome</h1>
+        <p class="welcome-text">
+            Learn about <a href="https://learn.microsoft.com/aspnet/core">building Web apps with ASP.NET Core</a>.
+        </p>
+    </div>
+
+    <footer>
+        &copy; 2025 - WebApp5ByCosmic- <a href="#">Privacy</a>
+    </footer>
+
+</body>
+</html>

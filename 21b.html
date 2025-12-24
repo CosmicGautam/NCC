@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student List - WebApp3BySuman</title>
+    <style>
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            color: #212529;
+            background-color: #fff;
+        }
+
+        /* Navbar */
+        nav {
+            display: flex;
+            align-items: center;
+            padding: 12px 5%;
+            border-bottom: 1px solid #dee2e6;
+            margin-bottom: 30px;
+        }
+
+        .brand {
+            font-size: 1.5rem;
+            color: #212529;
+            text-decoration: none;
+            margin-right: 25px;
+        }
+
+        .nav-links {
+            display: flex;
+            gap: 15px;
+        }
+
+        .nav-link {
+            text-decoration: none;
+            color: #6c757d;
+            font-size: 1rem;
+        }
+
+        /* Main Container */
+        .container {
+            padding: 0 5%;
+        }
+
+        h1 {
+            font-size: 2.5rem;
+            margin-bottom: 10px;
+            font-weight: 500;
+        }
+
+        .add-link {
+            display: inline-block;
+            margin-bottom: 15px;
+            color: #0056b3;
+            text-decoration: underline;
+            font-size: 1rem;
+        }
+
+        /* Student Table */
+        .student-table {
+            border-collapse: collapse;
+            width: 100%;
+            max-width: 800px;
+            border: 1px solid #dee2e6;
+        }
+
+        .student-table th {
+            text-align: left;
+            padding: 12px;
+            font-weight: bold;
+            border-bottom: 2px solid #dee2e6;
+        }
+
+        .student-table td {
+            padding: 12px;
+            vertical-align: middle;
+            border-bottom: 1px solid #dee2e6;
+        }
+
+        .actions {
+            text-align: right;
+            color: #0056b3;
+        }
+
+        .actions a {
+            color: #0056b3;
+            text-decoration: underline;
+        }
+
+        .action-separator {
+            color: #212529;
+            text-decoration: none !important;
+            margin: 0 3px;
+        }
+    </style>
+</head>
+<body>
+
+    <nav>
+        <a href="#" class="brand">WebApp3ByDevraj</a>
+        <div class="nav-links">
+            <a href="#" class="nav-link">Home</a>
+            <a href="#" class="nav-link">Privacy</a>
+        </div>
+    </nav>
+
+    <div class="container">
+        <h1>Student List</h1>
+        
+        <a href="#" class="add-link">Add New Student</a>
+
+        <table class="student-table">
+            <thead>
+                <tr>
+                    <th>ID</th>
+                    <th>Name</th>
+                    <th>Age</th>
+                    <th>Email</th>
+                    <th style="text-align: right;">Actions</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>3</td>
+                    <td>devraj</td>
+                    <td>21</td>
+                    <td>devrajchapai301@gmail.com</td>
+                    <td class="actions">
+                        <a href="#">Edit</a><span class="action-separator">|</span><a href="#">Delete</a>
+                    </td>
+                </tr>
+                <tr>
+                    <td>4</td>
+                    <td>hari</td>
+                    <td>20</td>
+                    <td>hari@gmail.com</td>
+                    <td class="actions">
+                        <a href="#">Edit</a><span class="action-separator">|</span><a href="#">Delete</a>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+
+</body>
+</html>

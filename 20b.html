@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Terminal Console - Update</title>
+    <style>
+        body {
+            background-color: #0c0c0c;
+            color: #cccccc;
+            font-family: 'Consolas', 'Monaco', 'Lucida Console', monospace;
+            padding: 20px;
+            line-height: 1.4;
+            margin: 0;
+        }
+
+        .terminal {
+            max-width: 900px;
+        }
+
+        .menu {
+            margin-bottom: 5px;
+        }
+
+        .input-line {
+            display: block;
+            margin-bottom: 2px;
+        }
+
+        .success {
+            color: #ffffff;
+            margin-top: 5px;
+            margin-bottom: 20px;
+        }
+
+        /* Table Styling */
+        .console-table {
+            border-collapse: collapse;
+            width: 100%;
+            max-width: 600px;
+            margin-top: 10px;
+        }
+
+        .console-table th {
+            text-align: left;
+            font-weight: normal;
+            padding-bottom: 5px;
+        }
+
+        .divider {
+            border-top: 1px dashed #cccccc;
+            margin: 5px 0;
+            width: 100%;
+            max-width: 600px;
+        }
+
+        .row td {
+            padding-right: 30px;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="terminal">
+        <div class="menu">
+            1. Insert Student<br>
+            2. Read Students<br>
+            3. Update Student<br>
+            4. Delete Student<br>
+            5. Exit
+        </div>
+
+        <div class="input-line">Enter your choice: 3</div>
+        <div class="input-line">Enter Student ID to update: 2</div>
+        <div class="input-line">Enter new Name: sayan</div>
+        <div class="input-line">Enter new Age: 21</div>
+        <div class="input-line">Enter new Email: sayan@gmail.com</div>
+        
+        <div class="successs">Student updated successfully!</div>
+
+        <div class="menu">
+            1. Insert Student<br>
+            2. Read Students<br>
+            3. Update Student<br>
+            4. Delete Student<br>
+            5. Exit<br>
+            Enter your choice: 2
+        </div>
+
+        <table class="console-table">
+            <thead>
+                <tr>
+                    <th style="width: 10%">ID</th>
+                    <th style="width: 20%">Name</th>
+                    <th style="width: 10%">Age</th>
+                    <th>Email</th>
+                </tr>
+            </thead>
+        </table>
+        <div class="divider"></div>
+        <table class="console-table">
+            <tr class="row">
+                <td style="width: 10%">1</td>
+                <td style="width: 20%">suman</td>
+                <td style="width: 10%">21</td>
+                <td>sumanbasnet301@gmail.com</td>
+            </tr>
+            <tr class="row">
+                <td style="width: 10%">2</td>
+                <td style="width: 20%">sayan</td>
+                <td style="width: 10%">21</td>
+                <td>sayan@gmail.com</td>
+            </tr>
+        </table>
+    </div>
+
+</body>
+</html>

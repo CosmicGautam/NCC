@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SSMS Results Grid</title>
+    <style>
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background-color: #f0f0f0;
+            margin: 20px;
+            color: #000;
+        }
+
+        /* Container for the tabs */
+        .tab-container {
+            display: flex;
+            background-color: #f0f0f0;
+            border-bottom: 1px solid #ccc;
+            width: fit-content;
+        }
+
+        .tab {
+            padding: 4px 12px;
+            border: 1px solid #ccc;
+            border-bottom: none;
+            background-color: #fff;
+            display: flex;
+            align-items: center;
+            font-size: 13px;
+            gap: 6px;
+        }
+
+        .tab.inactive {
+            background-color: #e1e1e1;
+            color: #333;
+        }
+
+        /* Grid Table Styling */
+        .results-grid {
+            border-collapse: collapse;
+            background-color: #fff;
+            font-size: 13px;
+            border: 1px solid #b5b5b5;
+        }
+
+        /* The row header (the empty first column) */
+        .row-header {
+            background-color: #f0f0f0;
+            color: #000;
+            text-align: center;
+            width: 25px;
+            border: 1px solid #ccc;
+        }
+
+        .results-grid th {
+            background-color: #fff;
+            font-weight: normal;
+            text-align: left;
+            padding: 2px 8px;
+            border: 1px solid #ccc;
+            color: #000;
+        }
+
+        .results-grid td {
+            padding: 2px 8px;
+            border: 1px solid #eee;
+            color: #000;
+        }
+
+        /* Selected cell styling (dotted border look) */
+        .selected-cell {
+            background-color: #e8eff7;
+            outline: 1px dotted #000;
+            outline-offset: -2px;
+        }
+
+        /* Icon Placeholders */
+        .icon {
+            width: 14px;
+            height: 14px;
+            display: inline-block;
+            background-color: #666; /* Simplified icon representation */
+        }
+
+        .grid-icon { background-color: #444; }
+        .msg-icon { background-color: #888; }
+
+    </style>
+</head>
+<body>
+
+    <div class="tab-container">
+        <div class="tab">
+            <span class="icon grid-icon"></span> Results
+        </div>
+        <div class="tab inactive">
+            <span class="icon msg-icon"></span> Messages
+        </div>
+    </div>
+
+    <table class="results-grid">
+        <thead>
+            <tr>
+                <th class="row-header"></th>
+                <th>Id</th>
+                <th>Name</th>
+                <th>Age</th>
+                <th>Email</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td class="row-header">1</td>
+                <td class="selected-cell">1</td>
+                <td>devraj</td>
+                <td>21</td>
+                <td>devrajchapai301@gmail.com</td>
+            </tr>
+            <tr>
+                <td class="row-header">2</td>
+                <td>2</td>
+                <td>sayan</td>
+                <td>21</td>
+                <td>sayan@gmail.com</td>
+            </tr>
+        </tbody>
+    </table>
+
+</body>
+</html>
