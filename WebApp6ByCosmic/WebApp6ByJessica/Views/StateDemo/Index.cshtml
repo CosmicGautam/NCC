@@ -1,0 +1,76 @@
+﻿@{
+    ViewData["Title"] = "State Management Demo";
+}
+
+<h2>ASP.NET Core State Management Demo - WebApp6ByJessica</h2>
+<hr />s
+
+<!-- SESSION -->
+<h3>Session Example</h3>
+<form asp-action="SetSession" method="post">
+    <input type="text" name="name" placeholder="Enter your name" required />
+    <button type="submit">Set Session</button>
+</form>
+<a asp-action="GetSession">Get Session Value</a>
+@if (ViewBag.SessionValue != null)
+{
+    <p><b>Session Value:</b> @ViewBag.SessionValue</p>
+}
+<hr />
+
+<!-- COOKIES -->
+<h3>Cookie Example</h3>
+<form asp-action="SetCookie" method="post">
+    <input type="email" name="email" placeholder="Enter your email" required />
+    <button type="submit">Set Cookie</button>
+</form>
+<a asp-action="GetCookie">Get Cookie Value</a>
+@if (ViewBag.CookieValue != null)
+{
+    <p><b>Cookie Value:</b> @ViewBag.CookieValue</p>
+}
+<hr />
+
+<!-- TEMPDATA -->
+<h3>TempData Example</h3>
+<a asp-action="SetTempData">Set TempData</a> |
+<a asp-action="ShowTempData">Show TempData</a>
+@if (ViewBag.TempMessage != null)
+{
+    <p><b>TempData:</b> @ViewBag.TempMessage</p>
+}
+<hr />
+
+<!-- QUERY STRING -->
+<h3>Query String Example</h3>
+<a asp-action="QueryExample" asp-route-name="Jessica" asp-route-age="29">
+    Send Query String
+</a>
+@if (ViewBag.QueryName != null)
+{
+    <p><b>From Query String:</b> Name = @ViewBag.QueryName, Age = @ViewBag.QueryAge</p>
+}
+<hr />
+
+<!-- HIDDEN FIELD -->
+<h3>Hidden Field Example</h3>
+<form asp-action="HiddenExample" method="post">
+    <input type="hidden" name="hiddenValue" value="Hidden field value here!" />
+    <button type="submit">Submit Hidden Field</button>
+</form>
+@if (ViewBag.HiddenValue != null)
+{
+    <p><b>Hidden Field Value:</b> @ViewBag.HiddenValue</p>
+}
+<hr />
+
+<!-- HTTP CONTEXT -->
+<h3>HttpContext Example</h3>
+<a asp-action="HttpContextExample">Show HttpContext Value</a>
+@if (ViewBag.RequestId != null)
+{
+    <p><b>HttpContext.Items Value:</b> @ViewBag.RequestId</p>
+}
+
+<hr />
+<p style="color:green">@ViewBag.Message</p>

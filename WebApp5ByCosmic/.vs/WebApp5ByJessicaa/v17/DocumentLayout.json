@@ -1,0 +1,54 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\DELL\\source\\repos\\WebApp5ByJessicaa\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{7646D723-92E3-48D2-BC88-82F69F2DF846}|WebApp5ByJessicaa\\WebApp5ByJessicaa.csproj|c:\\users\\dell\\source\\repos\\webapp5byjessicaa\\webapp5byjessicaa\\models\\sampledbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7646D723-92E3-48D2-BC88-82F69F2DF846}|WebApp5ByJessicaa\\WebApp5ByJessicaa.csproj|solutionrelative:webapp5byjessicaa\\models\\sampledbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7646D723-92E3-48D2-BC88-82F69F2DF846}|WebApp5ByJessicaa\\WebApp5ByJessicaa.csproj|c:\\users\\dell\\source\\repos\\webapp5byjessicaa\\webapp5byjessicaa\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{7646D723-92E3-48D2-BC88-82F69F2DF846}|WebApp5ByJessicaa\\WebApp5ByJessicaa.csproj|solutionrelative:webapp5byjessicaa\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\DELL\\source\\repos\\WebApp5ByJessicaa\\WebApp5ByJessicaa\\appsettings.json",
+              "RelativeDocumentMoniker": "WebApp5ByJessicaa\\appsettings.json",
+              "ToolTip": "C:\\Users\\DELL\\source\\repos\\WebApp5ByJessicaa\\WebApp5ByJessicaa\\appsettings.json",
+              "RelativeToolTip": "WebApp5ByJessicaa\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-11-12T12:31:57.923Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "SampleDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\DELL\\source\\repos\\WebApp5ByJessicaa\\WebApp5ByJessicaa\\Models\\SampleDbContext.cs",
+              "RelativeDocumentMoniker": "WebApp5ByJessicaa\\Models\\SampleDbContext.cs",
+              "ToolTip": "C:\\Users\\DELL\\source\\repos\\WebApp5ByJessicaa\\WebApp5ByJessicaa\\Models\\SampleDbContext.cs",
+              "RelativeToolTip": "WebApp5ByJessicaa\\Models\\SampleDbContext.cs",
+              "ViewState": "AgIAABIAAAAAAAAAAAAUwCMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-12T12:31:00.6Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

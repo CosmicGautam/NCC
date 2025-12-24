@@ -1,0 +1,73 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\lenovo\\Downloads\\WebApp7ByCosmic\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{20130ED3-1E9D-479D-8545-BB57ED74127F}|WebApp7ByJessica\\WebApp7ByJessica.csproj|c:\\users\\lenovo\\downloads\\webapp7bycosmic\\webapp7byjessica\\migrations\\applicationdbcontextmodelsnapshot.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{20130ED3-1E9D-479D-8545-BB57ED74127F}|WebApp7ByJessica\\WebApp7ByJessica.csproj|solutionrelative:webapp7byjessica\\migrations\\applicationdbcontextmodelsnapshot.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{20130ED3-1E9D-479D-8545-BB57ED74127F}|WebApp7ByJessica\\WebApp7ByJessica.csproj|c:\\users\\lenovo\\downloads\\webapp7bycosmic\\webapp7byjessica\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{20130ED3-1E9D-479D-8545-BB57ED74127F}|WebApp7ByJessica\\WebApp7ByJessica.csproj|solutionrelative:webapp7byjessica\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{20130ED3-1E9D-479D-8545-BB57ED74127F}|WebApp7ByJessica\\WebApp7ByJessica.csproj|c:\\users\\lenovo\\downloads\\webapp7bycosmic\\webapp7byjessica\\scaffoldingreadme.txt||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{20130ED3-1E9D-479D-8545-BB57ED74127F}|WebApp7ByJessica\\WebApp7ByJessica.csproj|solutionrelative:webapp7byjessica\\scaffoldingreadme.txt||{8B382828-6202-11D1-8870-0000F87579D2}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "ApplicationDbContextModelSnapshot.cs",
+              "DocumentMoniker": "C:\\Users\\lenovo\\Downloads\\WebApp7ByCosmic\\WebApp7ByJessica\\Migrations\\ApplicationDbContextModelSnapshot.cs",
+              "RelativeDocumentMoniker": "WebApp7ByJessica\\Migrations\\ApplicationDbContextModelSnapshot.cs",
+              "ToolTip": "C:\\Users\\lenovo\\Downloads\\WebApp7ByCosmic\\WebApp7ByJessica\\Migrations\\ApplicationDbContextModelSnapshot.cs",
+              "RelativeToolTip": "WebApp7ByJessica\\Migrations\\ApplicationDbContextModelSnapshot.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-12T13:30:05.727Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\lenovo\\Downloads\\WebApp7ByCosmic\\WebApp7ByJessica\\appsettings.json",
+              "RelativeDocumentMoniker": "WebApp7ByJessica\\appsettings.json",
+              "ToolTip": "C:\\Users\\lenovo\\Downloads\\WebApp7ByCosmic\\WebApp7ByJessica\\appsettings.json",
+              "RelativeToolTip": "WebApp7ByJessica\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAwAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-11-12T12:54:33.501Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "ScaffoldingReadMe.txt",
+              "DocumentMoniker": "C:\\Users\\lenovo\\Downloads\\WebApp7ByCosmic\\WebApp7ByJessica\\ScaffoldingReadMe.txt",
+              "RelativeDocumentMoniker": "WebApp7ByJessica\\ScaffoldingReadMe.txt",
+              "ToolTip": "C:\\Users\\lenovo\\Downloads\\WebApp7ByCosmic\\WebApp7ByJessica\\ScaffoldingReadMe.txt",
+              "RelativeToolTip": "WebApp7ByJessica\\ScaffoldingReadMe.txt",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003109|",
+              "WhenOpened": "2025-11-12T12:54:22.486Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,6 @@
+@WebApiBySuman_HostAddress = http://localhost:5227
+
+GET {{WebApiBySuman_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###

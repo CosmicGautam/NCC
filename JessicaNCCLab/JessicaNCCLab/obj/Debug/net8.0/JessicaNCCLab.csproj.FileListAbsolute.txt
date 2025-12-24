@@ -1,0 +1,14 @@
+C:\Users\DELL\source\repos\JessicaNCCLab\JessicaNCCLab\obj\Debug\net8.0\JessicaNCCLab.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\DELL\source\repos\JessicaNCCLab\JessicaNCCLab\obj\Debug\net8.0\JessicaNCCLab.AssemblyInfoInputs.cache
+C:\Users\DELL\source\repos\JessicaNCCLab\JessicaNCCLab\obj\Debug\net8.0\JessicaNCCLab.AssemblyInfo.cs
+C:\Users\DELL\source\repos\JessicaNCCLab\JessicaNCCLab\obj\Debug\net8.0\JessicaNCCLab.csproj.CoreCompileInputs.cache
+C:\Users\DELL\source\repos\JessicaNCCLab\JessicaNCCLab\bin\Debug\net8.0\JessicaNCCLab.exe
+C:\Users\DELL\source\repos\JessicaNCCLab\JessicaNCCLab\bin\Debug\net8.0\JessicaNCCLab.deps.json
+C:\Users\DELL\source\repos\JessicaNCCLab\JessicaNCCLab\bin\Debug\net8.0\JessicaNCCLab.runtimeconfig.json
+C:\Users\DELL\source\repos\JessicaNCCLab\JessicaNCCLab\bin\Debug\net8.0\JessicaNCCLab.dll
+C:\Users\DELL\source\repos\JessicaNCCLab\JessicaNCCLab\bin\Debug\net8.0\JessicaNCCLab.pdb
+C:\Users\DELL\source\repos\JessicaNCCLab\JessicaNCCLab\obj\Debug\net8.0\JessicaNCCLab.dll
+C:\Users\DELL\source\repos\JessicaNCCLab\JessicaNCCLab\obj\Debug\net8.0\refint\JessicaNCCLab.dll
+C:\Users\DELL\source\repos\JessicaNCCLab\JessicaNCCLab\obj\Debug\net8.0\JessicaNCCLab.pdb
+C:\Users\DELL\source\repos\JessicaNCCLab\JessicaNCCLab\obj\Debug\net8.0\JessicaNCCLab.genruntimeconfig.cache
+C:\Users\DELL\source\repos\JessicaNCCLab\JessicaNCCLab\obj\Debug\net8.0\ref\JessicaNCCLab.dll
